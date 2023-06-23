@@ -1,0 +1,132 @@
+/* Write your code here. */
+
+.app-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+}
+
+.app-sub-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 500px;
+}
+
+.main-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 55px;
+}
+
+.label-text {
+  font-family: 'Roboto';
+  color: #e4e7eb;
+  font-size: 15px;
+}
+
+.input-elem {
+  margin-top: 10px;
+  height: 40px;
+  width: 400px;
+  padding-left: 10px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  outline: none;
+  font-family: 'Roboto';
+  color: #e4e7eb;
+  font-size: 18px;
+}
+
+.card-cont {
+  width: 400px;
+}
+
+.count-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-top: 15px;
+  padding: 5px;
+  width: 250px;
+}
+
+.count-text {
+  font-family: 'Roboto';
+  color: #219a6f;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .main-text {
+    font-size: 18px;
+  }
+
+  .image {
+    width: 180px;
+  }
+  .label-text {
+    font-size: 6px;
+  }
+  .input-elem {
+    height: 20px;
+    width: 170px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+  .card-cont {
+    width: 180px;
+  }
+  .count-cont {
+    width: 120px;
+    height: 33px;
+    margin-top: 8px;
+    border-radius: 7px;
+  }
+
+  .count-text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .main-text {
+    font-size: 25px;
+  }
+
+  .image {
+    width: 300px;
+  }
+  .label-text {
+    font-size: 12px;
+  }
+  .input-elem {
+    height: 27px;
+    width: 270px;
+    font-size: 15px;
+    border-radius: 8px;
+  }
+  .card-cont {
+    width: 320px;
+  }
+  .count-cont {
+    width: 170px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  .count-text {
+    font-size: 17px;
+  }
+}
